@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="nhập gì đó" id="n">
+    <button onclick="fibon()"> check </button>;
+    <script>
+        function fibon(){
+        let n = document.getElementById("n").value;
+        let a = 0;
+        let b = 1;
+        for ( i = 0; i<n; i++){
+             fibonnacci = a;
+             a = b;
+             b =  fibonnacci+ a
+            document.write(fibonnacci + ",");
+        }
+        }
+    </script>
+</body>
+</html>
